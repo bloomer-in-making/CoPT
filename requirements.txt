@@ -1,6 +1,4 @@
-# Python 3.10.20 was used in the environment supplied by the authors.
-# Versions below are taken from that environment; a clean installation
-# of this reduced dependency set has not yet been validated.
+# Python version used in our environment: 3.10.20
 # Install the CUDA build of PyTorch first:
 # python -m pip install torch==2.1.2 --index-url https://download.pytorch.org/whl/cu121
 
