@@ -1,0 +1,28 @@
+# Python 3.10.20 was used in the environment supplied by the authors.
+# Versions below are taken from that environment; a clean installation
+# of this reduced dependency set has not yet been validated.
+# Install the CUDA build of PyTorch first:
+# python -m pip install torch==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+
+# Core runtime
+torch==2.1.2
+transformers==4.30.2
+datasets==2.14.6
+numpy==1.26.4
+yacs==0.1.8
+regex==2026.2.28
+tqdm==4.70.1
+
+# Tokenization and conversion
+sentencepiece==0.2.2
+protobuf==7.35.1
+
+# Evaluation utilities imported by the training entry point
+scikit-learn==1.7.2
+scipy==1.15.3
+
+# Explicit pins for the older Transformers/Datasets stack
+tokenizers==0.13.3
+pyarrow==12.0.1
+fsspec==2023.10.0
+huggingface-hub==0.36.2
